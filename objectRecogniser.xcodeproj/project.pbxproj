@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FFE0659F2A86E5A900E3D37F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE0659E2A86E5A900E3D37F /* AppDelegate.swift */; };
+		FF525F732A88403B0011B85A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE0659E2A86E5A900E3D37F /* AppDelegate.swift */; };
+		FF8DB25F2A882F5400C9A6B4 /* Inceptionv3.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = FF8DB25E2A882F5400C9A6B4 /* Inceptionv3.mlpackage */; };
 		FFE065A12A86E5A900E3D37F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE065A02A86E5A900E3D37F /* SceneDelegate.swift */; };
 		FFE065A32A86E5A900E3D37F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE065A22A86E5A900E3D37F /* ViewController.swift */; };
 		FFE065A62A86E5A900E3D37F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFE065A42A86E5A900E3D37F /* Main.storyboard */; };
 		FFE065A82A86E5AA00E3D37F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFE065A72A86E5AA00E3D37F /* Assets.xcassets */; };
 		FFE065AB2A86E5AA00E3D37F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFE065A92A86E5AA00E3D37F /* LaunchScreen.storyboard */; };
-		FFE065B32A86E5B200E3D37F /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FFE065B22A86E5B200E3D37F /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FFE0659B2A86E5A900E3D37F /* SeaFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeaFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF8DB25E2A882F5400C9A6B4 /* Inceptionv3.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = Inceptionv3.mlpackage; sourceTree = "<group>"; };
+		FFE0659B2A86E5A900E3D37F /* objectRecogniser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = objectRecogniser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFE0659E2A86E5A900E3D37F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFE065A02A86E5A900E3D37F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FFE065A22A86E5A900E3D37F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,7 +26,6 @@
 		FFE065A72A86E5AA00E3D37F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FFE065AA2A86E5AA00E3D37F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FFE065AC2A86E5AA00E3D37F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FFE065B22A86E5B200E3D37F /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +50,7 @@
 		FFE0659C2A86E5A900E3D37F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FFE0659B2A86E5A900E3D37F /* SeaFood.app */,
+				FFE0659B2A86E5A900E3D37F /* objectRecogniser.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,7 +65,7 @@
 				FFE065A72A86E5AA00E3D37F /* Assets.xcassets */,
 				FFE065A92A86E5AA00E3D37F /* LaunchScreen.storyboard */,
 				FFE065AC2A86E5AA00E3D37F /* Info.plist */,
-				FFE065B22A86E5B200E3D37F /* Inceptionv3.mlmodel */,
+				FF8DB25E2A882F5400C9A6B4 /* Inceptionv3.mlpackage */,
 			);
 			path = SeaFood;
 			sourceTree = "<group>";
@@ -73,9 +73,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FFE0659A2A86E5A900E3D37F /* SeaFood */ = {
+		FFE0659A2A86E5A900E3D37F /* objectRecogniser */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FFE065AF2A86E5AA00E3D37F /* Build configuration list for PBXNativeTarget "SeaFood" */;
+			buildConfigurationList = FFE065AF2A86E5AA00E3D37F /* Build configuration list for PBXNativeTarget "objectRecogniser" */;
 			buildPhases = (
 				FFE065972A86E5A900E3D37F /* Sources */,
 				FFE065982A86E5A900E3D37F /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = SeaFood;
+			name = objectRecogniser;
 			productName = SeaFood;
-			productReference = FFE0659B2A86E5A900E3D37F /* SeaFood.app */;
+			productReference = FFE0659B2A86E5A900E3D37F /* objectRecogniser.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FFE065962A86E5A900E3D37F /* Build configuration list for PBXProject "SeaFood" */;
+			buildConfigurationList = FFE065962A86E5A900E3D37F /* Build configuration list for PBXProject "objectRecogniser" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FFE0659A2A86E5A900E3D37F /* SeaFood */,
+				FFE0659A2A86E5A900E3D37F /* objectRecogniser */,
 			);
 		};
 /* End PBXProject section */
@@ -141,9 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF525F732A88403B0011B85A /* AppDelegate.swift in Sources */,
+				FF8DB25F2A882F5400C9A6B4 /* Inceptionv3.mlpackage in Sources */,
 				FFE065A32A86E5A900E3D37F /* ViewController.swift in Sources */,
-				FFE065B32A86E5B200E3D37F /* Inceptionv3.mlmodel in Sources */,
-				FFE0659F2A86E5A900E3D37F /* AppDelegate.swift in Sources */,
 				FFE065A12A86E5A900E3D37F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,6 +294,9 @@
 				DEVELOPMENT_TEAM = 9LQZ2J88RG;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SeaFood/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = objectRecogniser;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need your camera!";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "we need access to your library";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -304,7 +307,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.hamihash.SeaFood;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamihash.objectRecogniser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -322,6 +325,9 @@
 				DEVELOPMENT_TEAM = 9LQZ2J88RG;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SeaFood/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = objectRecogniser;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need your camera!";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "we need access to your library";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -332,7 +338,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.hamihash.SeaFood;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamihash.objectRecogniser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -343,7 +349,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FFE065962A86E5A900E3D37F /* Build configuration list for PBXProject "SeaFood" */ = {
+		FFE065962A86E5A900E3D37F /* Build configuration list for PBXProject "objectRecogniser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FFE065AD2A86E5AA00E3D37F /* Debug */,
@@ -352,7 +358,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FFE065AF2A86E5AA00E3D37F /* Build configuration list for PBXNativeTarget "SeaFood" */ = {
+		FFE065AF2A86E5AA00E3D37F /* Build configuration list for PBXNativeTarget "objectRecogniser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FFE065B02A86E5AA00E3D37F /* Debug */,
